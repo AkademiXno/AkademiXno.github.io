@@ -1,5 +1,17 @@
+/*#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+ */
+
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    padding-top: 70px; 
+    background: transparent;
 }
 
 .navbar-fixed-top .nav {
@@ -19,10 +31,11 @@ footer {
 
 @media(min-width:768px) {
     body {
-        padding-top: 170px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        padding-top: 170px; 
     }
 
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
+
 }
