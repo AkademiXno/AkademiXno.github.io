@@ -1,6 +1,5 @@
 
 body {
-    padding-top: 130px; 
     background: transparent;
 }
 
@@ -10,17 +9,21 @@ body {
 
 
 .navbar-fixed-top .nav {
-    padding: 15px 0;
+
     
 }
 
+#logo {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
 .navbar-fixed-top .navbar-brand {
-    padding: 0 15px;
-    height: 100px;
-    margin-bottom: 25px;
+    height: 96px;
 }
 
 footer {
+    margin-top: 100px;
     padding: 10px 0;
     background-color: #3C556C;
    
